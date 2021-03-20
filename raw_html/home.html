@@ -7,7 +7,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
-        <link rel="stylesheet" href="../static/css/corner-indicator.css">
+        <link rel="stylesheet" href="static/css/corner-indicator.css">
         <!-- <img class="container1" src="../static/img/image2.jpg"> -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="../static/img/techarius_small.png" class="logo-img" height="30" width="30">
+              <a class="navbar-brand" href="#"><img src="static/img/techarius_small.png" class="logo-img" height="30" width="30">
                 Techarius Development Inc.</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -79,11 +79,15 @@
 }
 .container1
 {
-    background:url('../static/img/image2.jpg');
+    background:url('static/img/image2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Raleway',sans-serif;
+    height:95%;
+    @media(min-width: 600px) {
+      height:60%;
+  }
 }
 .navbar{
 font-family: 'Quicksand',sans-serif;
