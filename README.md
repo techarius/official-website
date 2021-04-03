@@ -1,6 +1,8 @@
 ## Techarius Official Website
-Technologies to be used
+Official Hosted Link- https://techariusdev.xyz
 
-For Backend-Nodejs
+Technologies used
+
+For Backend-Nodejs/PHP
 
 For Database-MongoDB
