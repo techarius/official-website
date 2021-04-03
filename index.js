@@ -17,13 +17,9 @@ app.get('/',(req,res)=>
 {
     res.render('index');
 })
-app.get('/home',(req,res)=>
+app.get('/main',(req,res)=>
 {
-    res.render('home')
-})
-app.get('/login',(req,res)=>
-{
-    res.render('login')
+    res.render('main')
 })
 app.all('*',(req,res)=>
 {
